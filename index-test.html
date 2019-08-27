@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Anything But Anything Popup 05</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<style>
+	*{
+		margin:0;
+		padding:6px;
+		font-family:Open Sans, Arial;
+	}
+	.modal-open {
+		padding:8px 20px;
+		background:#95c940;
+		margin:8px 20px;
+		font-size:24px;
+		color:#fff;
+		border:0;
+		outline:0;
+		border-radius:20px;
+		cursor: pointer;
+	}
+	.modal-open:hover {
+		background:#739f2d;
+	}
+	.modal {
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		background: rgba(0,0,0,0.5);
+		z-index:2;
+		display: none;
+		animation: modal-open .5s;
+	}
+	.modal-content {
+		background:#fff;
+		margin-top:120px;
+		width:50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding:10px 26px;
+		border-radius:30px;
+		z-index:4;
+	}
+	.modal-header {
+		font-weight:500;
+		padding:6px;
+		font-size:26px;
+		text-align: center;
+	}
+	.modal-header .modal-close {
+		float:right;
+		font-size:22px;
+		background:#efefef;
+		border:0;
+		outline:0;
+		padding:0;
+		margin:-40px;
+		border-radius:50%;
+	}
+	.modal-body {
+		color:#000;
+		padding:15px 0;
+	}
+	.modal-footer {
+		padding:15px 0;
+	}
+	.modal-footer .modal-close {
+		padding:8px 20px;
+		font-size:18px;
+		border:none;
+		outline:none;
+		border-radius:16px;
+		color:#000;
+		cursor: pointer;
+	}
+	.modal-close:hover {
+		background: #f99d25;
+	}
+	li {
+		line-height: 16px;
+	}
+	@keyframes modal-open {
+		from{
+			opacity: 0;
+		}
+		to{
+			opacity: 1;
+		}
+	}
+</style>
+<body>
+	<!-- Modal Buttons -->
+	<button class="modal-open" data-modal="modal1">Why CaptionCall?</button>
+	<button class="modal-open" data-modal="modal2">How Do I Qualify?</button>
+	<button class="modal-open" data-modal="modal3">How Is It FREE?</button>
+	<button class="modal-open" data-modal="modal4">How Does It Work?</button>
+
+	<!-- Modals -->
+	<!-- 1 -->
+	<div class="modal" id="modal1">
+		<div class="modal-content">
+			<div class="modal-header">With CaptionCall you can understand every call.<button class="icon modal-close"><i class="material-icons" style="cursor: pointer;">close</i></button></div>
+			<div class="modal-body">
+				<table>
+					<tbody>
+						<tr>
+							<td><img src="https://captioncall.com/wp-content/uploads/2016/05/67TB_straight_savedcall.png" width="400px" height="auto"></td>
+							<td>
+								<ul>
+									<li>Don't miss out on important telephone conversations with friends and family.</li>
+									<li>Stay independent and in charge of your communication.</li>
+									<li>Audiologist-recommended.</li>
+								</ul>
+								</td>
+						</tr>
+					</tbody>
+				</table><br>
+				<p>Plus, all CaptionCall Phones are installed by a knowledgeable, friendly CaptionCall Trainer for free. We'll setup the phone and make sure you're comfortable using CaptionCall.</p>
+			</div>
+			<div class="modal-footer"><button class="link modal-close">Close</button></div>
+		</div>
+	</div>
+	<!-- 2 -->
+	<div class="modal" id="modal2">
+		<div class="modal-content">
+			<div class="modal-header">To receive CaptionCall, you’ll need:<button class="icon modal-close"><i class="material-icons" style="cursor: pointer;">close</i></button></div>
+			<div class="modal-body">
+				<table>
+					<tbody>
+						<tr>
+							<td><img src="https://captioncall.com/wp-content/uploads/2017/07/CaptionCall-1210625.jpg" width="400px" height="auto"></td>
+							<td>
+								<ul>
+									<li>A medically-recognized hearing loss</li>
+									<li>An internet connection</li>
+									<li>A standard home telephone connection. (Landline)</li>
+								</ul>
+								</td>
+						</tr>
+					</tbody>
+				</table><br>
+				<p>CaptionCall is FREE with a professional certification form from a professional qualified to evaluate hearing loss. After you submit your information, you will receive your Professional Certification Form for download.</p>
+			</div>
+			<div class="modal-footer" style="float:left;"><button class="link modal-close">Close</button></div>
+		</div>
+	</div>
+	<!-- 3 -->
+	<div class="modal" id="modal3">
+		<div class="modal-content">
+			<div class="modal-header">How Is CaptionCall FREE?<button class="icon modal-close"><i class="material-icons" style="cursor: pointer;">close</i></button></div>
+			<div class="modal-body" style="text-align: center;"><p>As a provision of the Americans with Disabilities Act, the U.S. federal government established a fund to give individuals with hearing loss access to captioned telephone service at no cost. This captioning service is funded using surcharges on all telephone bills. If you’ve paid a phone bill, you’ve already contributed.</p></div><br>
+			<div style="text-align: center;"><img align="center" src="https://captioncall.com/wp-content/uploads/2017/11/FCC_white.png" width="260px" height="auto"></div>
+			<div class="modal-footer"><button class="link modal-close">Close</button></div>
+		</div>
+	</div>
+	<!-- 4 -->
+	<div class="modal" id="modal4">
+		<div class="modal-content">
+			<div class="modal-header">How Does CaptionCall Work?<button class="icon modal-close"><i class="material-icons" style="cursor: pointer;">motorcycle</i></button></div>
+			<div class="modal-body" style="text-align: center;">
+				<p>The captioning is done using a live captioning agent who hears what your callers are saying and uses both voice-recognition technology and manual corrections to turn the audio into captions. This combination of technology and human involvement makes sure we are providing the most accurate captions possible. We follow strict privacy regulations and none of your conversation is recorded.</p></div><br>
+			<div style="text-align: center;float:right;"><img align="center" src="https://captioncall.com/wp-content/uploads/2017/01/67Tb-angle-captions_md-1024x683.png" width="580px" height="auto"></div>
+			<div class="modal-footer"><button class="link modal-close">Close</button></div>
+		</div>		
+	</div>
+	<script>
+		var modalBtns = document.querySelectorAll('.modal-open');
+
+		modalBtns.forEach(function(btn) {
+			btn.onclick = function() {
+				var modal = btn.getAttribute("data-modal");
+
+				document.getElementById(modal).style.display = "block";
+			};
+		});
+
+		var closeBtns = document.querySelectorAll(".modal-close");
+
+		closeBtns.forEach(function(btn){
+			btn.onclick = function(){
+				var modal = btn.closest(".modal").style.display = 'none';
+			};
+		});
+
+		window.onclick = function(e) {
+			if (e.target.className === "modal") {
+				e.target.style.display = "none";
+			}
+		};
+	</script>
+</body>
+</html>
